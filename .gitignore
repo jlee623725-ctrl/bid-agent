@@ -35,3 +35,6 @@ coverage.xml
 
 # Generated reports
 *.docx
+
+# Generated index (re-run scripts/build_index.py)
+data/vector_index/
