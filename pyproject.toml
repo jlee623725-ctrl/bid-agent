@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bid-agent"
+version = "1.0.0"
+description = "招投标智能体平台 — Multi-Agent RAG System for Bidding Intelligence"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.11"
+authors = [
+    {name = "Your Name", email = "your-email@example.com"},
+]
+keywords = ["bidding", "agent", "llm", "rag", "deepseek", "multi-agent"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+    "openai>=1.0.0",
+    "streamlit>=1.32.0",
+    "python-dotenv>=1.0.0",
+    "pandas>=2.0.0",
+    "scikit-learn>=1.0.0",
+    "fastapi>=0.100.0",
+    "uvicorn>=0.23.0",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=8.0.0",
+]
+
+[project.scripts]
+bid-agent-streamlit = "app:main"

@@ -1,0 +1,790 @@
+{
+  "agent": "bidding_analyst",
+  "summary": {
+    "total": 50,
+    "passed": 21,
+    "pass_rate": 42.0,
+    "tool_call_rate": 88.0,
+    "tool_accuracy": 46.0,
+    "keyword_rate": 94.0,
+    "avg_time": 11.2,
+    "errors": 0
+  },
+  "details": [
+    {
+      "id": "B01",
+      "question": "搜索包含'建筑'的招标公告",
+      "tools_used": [
+        "search_notices"
+      ],
+      "correct_tool": true,
+      "has_keywords": true,
+      "passed": true,
+      "elapsed": 8.58,
+      "error": ""
+    },
+    {
+      "id": "B02",
+      "question": "最近半年来信息技术行业的中标趋势如何？前五名中标企业有哪些？",
+      "tools_used": [
+        "query_trends",
+        "search_notices"
+      ],
+      "correct_tool": true,
+      "has_keywords": true,
+      "passed": true,
+      "elapsed": 7.02,
+      "error": ""
+    },
+    {
+      "id": "B03",
+      "question": "帮我查第一条招标公告的完整内容",
+      "tools_used": [
+        "search_notices",
+        "get_notice_detail"
+      ],
+      "correct_tool": true,
+      "has_keywords": true,
+      "passed": true,
+      "elapsed": 7.23,
+      "error": ""
+    },
+    {
+      "id": "B04",
+      "question": "搜索关于市政工程的招标信息",
+      "tools_used": [
+        "search_notices",
+        "query_trends",
+        "query_trends"
+      ],
+      "correct_tool": true,
+      "has_keywords": true,
+      "passed": true,
+      "elapsed": 14.85,
+      "error": ""
+    },
+    {
+      "id": "B05",
+      "question": "有没有医疗行业的招标项目？",
+      "tools_used": [
+        "search_notices",
+        "search_notices",
+        "query_trends",
+        "query_trends",
+        "query_trends"
+      ],
+      "correct_tool": true,
+      "has_keywords": true,
+      "passed": true,
+      "elapsed": 18.31,
+      "error": ""
+    },
+    {
+      "id": "B06",
+      "question": "房地产行业最近一年的中标总金额是多少？",
+      "tools_used": [
+        "query_trends",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices"
+      ],
+      "correct_tool": true,
+      "has_keywords": true,
+      "passed": true,
+      "elapsed": 15.27,
+      "error": ""
+    },
+    {
+      "id": "B07",
+      "question": "帮我搜索'道路工程'相关的招标公告",
+      "tools_used": [
+        "search_notices"
+      ],
+      "correct_tool": true,
+      "has_keywords": true,
+      "passed": true,
+      "elapsed": 6.54,
+      "error": ""
+    },
+    {
+      "id": "B08",
+      "question": "看看公告编号为3的详细信息",
+      "tools_used": [
+        "get_notice_detail"
+      ],
+      "correct_tool": true,
+      "has_keywords": true,
+      "passed": true,
+      "elapsed": 6.42,
+      "error": ""
+    },
+    {
+      "id": "B09",
+      "question": "教育行业的中标情况怎么样？",
+      "tools_used": [
+        "search_notices",
+        "query_trends",
+        "get_notice_detail"
+      ],
+      "correct_tool": true,
+      "has_keywords": true,
+      "passed": true,
+      "elapsed": 8.49,
+      "error": ""
+    },
+    {
+      "id": "B10",
+      "question": "最近交通领域有哪些中标项目？金额最高的前几名是谁？",
+      "tools_used": [
+        "search_notices",
+        "search_notices",
+        "query_trends",
+        "search_notices",
+        "query_trends",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "query_trends"
+      ],
+      "correct_tool": true,
+      "has_keywords": false,
+      "passed": false,
+      "elapsed": 14.14,
+      "error": ""
+    },
+    {
+      "id": "B11",
+      "question": "搜索'办公家具采购'的招标信息",
+      "tools_used": [
+        "search_notices"
+      ],
+      "correct_tool": true,
+      "has_keywords": true,
+      "passed": true,
+      "elapsed": 8.77,
+      "error": ""
+    },
+    {
+      "id": "B12",
+      "question": "水利工程的招标趋势分析",
+      "tools_used": [
+        "search_notices",
+        "query_trends",
+        "search_notices",
+        "query_trends"
+      ],
+      "correct_tool": true,
+      "has_keywords": true,
+      "passed": true,
+      "elapsed": 20.99,
+      "error": ""
+    },
+    {
+      "id": "C01",
+      "question": "帮我查一下合肥有哪些企业",
+      "tools_used": [
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "query_trends",
+        "query_trends",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "get_notice_detail",
+        "get_notice_detail"
+      ],
+      "correct_tool": false,
+      "has_keywords": false,
+      "passed": false,
+      "elapsed": 16.25,
+      "error": ""
+    },
+    {
+      "id": "C02",
+      "question": "合肥的房地产企业有哪些？注册资本高于5000万的",
+      "tools_used": [
+        "search_notices",
+        "search_notices",
+        "query_trends",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices"
+      ],
+      "correct_tool": false,
+      "has_keywords": true,
+      "passed": false,
+      "elapsed": 16.73,
+      "error": ""
+    },
+    {
+      "id": "C03",
+      "question": "帮我分析一下某家企业的全景情况",
+      "tools_used": [],
+      "correct_tool": false,
+      "has_keywords": true,
+      "passed": false,
+      "elapsed": 2.42,
+      "error": ""
+    },
+    {
+      "id": "C04",
+      "question": "查找某企业的竞争对手",
+      "tools_used": [],
+      "correct_tool": false,
+      "has_keywords": true,
+      "passed": false,
+      "elapsed": 1.81,
+      "error": ""
+    },
+    {
+      "id": "C05",
+      "question": "东莞有哪些批发业的企业？",
+      "tools_used": [
+        "search_notices",
+        "search_notices",
+        "query_trends",
+        "search_notices"
+      ],
+      "correct_tool": false,
+      "has_keywords": true,
+      "passed": false,
+      "elapsed": 10.19,
+      "error": ""
+    },
+    {
+      "id": "C06",
+      "question": "帮我查南京的建筑装饰业企业，按注册资本排序",
+      "tools_used": [
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "query_trends",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices"
+      ],
+      "correct_tool": false,
+      "has_keywords": true,
+      "passed": false,
+      "elapsed": 15.33,
+      "error": ""
+    },
+    {
+      "id": "C07",
+      "question": "厦门有哪些软件和信息技术服务业的公司？",
+      "tools_used": [
+        "search_notices",
+        "query_trends",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "query_trends"
+      ],
+      "correct_tool": false,
+      "has_keywords": true,
+      "passed": false,
+      "elapsed": 12.19,
+      "error": ""
+    },
+    {
+      "id": "C08",
+      "question": "帮我看看合肥建筑行业有哪些公司，列出它们的注册资本和成立日期",
+      "tools_used": [
+        "search_notices",
+        "query_trends",
+        "search_notices",
+        "search_notices",
+        "search_notices"
+      ],
+      "correct_tool": false,
+      "has_keywords": true,
+      "passed": false,
+      "elapsed": 11.54,
+      "error": ""
+    },
+    {
+      "id": "C09",
+      "question": "帮我查一下注册资本最高的几家企业",
+      "tools_used": [
+        "search_notices",
+        "query_trends"
+      ],
+      "correct_tool": false,
+      "has_keywords": true,
+      "passed": false,
+      "elapsed": 7.56,
+      "error": ""
+    },
+    {
+      "id": "C10",
+      "question": "南通有哪些土木工程建筑业的企业？",
+      "tools_used": [
+        "search_notices",
+        "search_notices",
+        "query_trends",
+        "search_notices",
+        "search_notices"
+      ],
+      "correct_tool": false,
+      "has_keywords": true,
+      "passed": false,
+      "elapsed": 12.02,
+      "error": ""
+    },
+    {
+      "id": "C11",
+      "question": "天津的房地产业有多少家企业？列出前5家",
+      "tools_used": [
+        "search_notices",
+        "query_trends",
+        "search_notices",
+        "search_notices"
+      ],
+      "correct_tool": false,
+      "has_keywords": true,
+      "passed": false,
+      "elapsed": 9.44,
+      "error": ""
+    },
+    {
+      "id": "C12",
+      "question": "帮我了解一家公司的基本信息、中标记录和同行竞争情况",
+      "tools_used": [],
+      "correct_tool": false,
+      "has_keywords": true,
+      "passed": false,
+      "elapsed": 1.46,
+      "error": ""
+    },
+    {
+      "id": "C13",
+      "question": "哈尔滨有哪些制造业的企业？注册资本1000万以上的",
+      "tools_used": [
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "query_trends",
+        "query_trends"
+      ],
+      "correct_tool": false,
+      "has_keywords": true,
+      "passed": false,
+      "elapsed": 12.63,
+      "error": ""
+    },
+    {
+      "id": "C14",
+      "question": "唐山的金属制品业企业有哪些？",
+      "tools_used": [
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "query_trends",
+        "query_trends",
+        "search_notices"
+      ],
+      "correct_tool": false,
+      "has_keywords": true,
+      "passed": false,
+      "elapsed": 12.07,
+      "error": ""
+    },
+    {
+      "id": "C15",
+      "question": "帮我查某公司在同城市同行业有哪些竞争对手",
+      "tools_used": [],
+      "correct_tool": false,
+      "has_keywords": true,
+      "passed": false,
+      "elapsed": 1.59,
+      "error": ""
+    },
+    {
+      "id": "L01",
+      "question": "查询与招标投标相关的法律法规",
+      "tools_used": [
+        "search_notices",
+        "search_notices",
+        "search_notices"
+      ],
+      "correct_tool": false,
+      "has_keywords": true,
+      "passed": false,
+      "elapsed": 12.58,
+      "error": ""
+    },
+    {
+      "id": "L02",
+      "question": "有没有关于投标保证金的法律规定？",
+      "tools_used": [
+        "search_notices"
+      ],
+      "correct_tool": false,
+      "has_keywords": true,
+      "passed": false,
+      "elapsed": 7.36,
+      "error": ""
+    },
+    {
+      "id": "L03",
+      "question": "帮我查一下政府采购法关于中小企业优惠的条款",
+      "tools_used": [
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices"
+      ],
+      "correct_tool": false,
+      "has_keywords": true,
+      "passed": false,
+      "elapsed": 13.62,
+      "error": ""
+    },
+    {
+      "id": "L04",
+      "question": "招标投标法对串通投标有什么处罚规定？",
+      "tools_used": [
+        "search_notices"
+      ],
+      "correct_tool": false,
+      "has_keywords": true,
+      "passed": false,
+      "elapsed": 8.19,
+      "error": ""
+    },
+    {
+      "id": "L05",
+      "question": "关于政府采购质疑和投诉的法律规定有哪些？",
+      "tools_used": [
+        "search_notices",
+        "search_notices"
+      ],
+      "correct_tool": false,
+      "has_keywords": true,
+      "passed": false,
+      "elapsed": 7.98,
+      "error": ""
+    },
+    {
+      "id": "L06",
+      "question": "废标的法律依据是什么？",
+      "tools_used": [],
+      "correct_tool": false,
+      "has_keywords": true,
+      "passed": false,
+      "elapsed": 2.07,
+      "error": ""
+    },
+    {
+      "id": "L07",
+      "question": "关于评标委员会组成的法律规定",
+      "tools_used": [],
+      "correct_tool": false,
+      "has_keywords": true,
+      "passed": false,
+      "elapsed": 3.22,
+      "error": ""
+    },
+    {
+      "id": "L08",
+      "question": "招标公告的发布期限有什么法律规定？",
+      "tools_used": [
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices"
+      ],
+      "correct_tool": false,
+      "has_keywords": true,
+      "passed": false,
+      "elapsed": 17.06,
+      "error": ""
+    },
+    {
+      "id": "L09",
+      "question": "电子招投标有什么相关法规？",
+      "tools_used": [
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "query_trends",
+        "query_trends"
+      ],
+      "correct_tool": false,
+      "has_keywords": true,
+      "passed": false,
+      "elapsed": 23.73,
+      "error": ""
+    },
+    {
+      "id": "L10",
+      "question": "关于工程建设项目招标范围和规模标准的法律规定",
+      "tools_used": [
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices"
+      ],
+      "correct_tool": false,
+      "has_keywords": true,
+      "passed": false,
+      "elapsed": 17.57,
+      "error": ""
+    },
+    {
+      "id": "X01",
+      "question": "合肥建筑行业有哪些企业？它们最近中了什么标？",
+      "tools_used": [
+        "search_notices",
+        "query_trends",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices"
+      ],
+      "correct_tool": true,
+      "has_keywords": true,
+      "passed": true,
+      "elapsed": 13.91,
+      "error": ""
+    },
+    {
+      "id": "X02",
+      "question": "帮我查一下关于建筑企业资质要求的法律法规，并看看合肥有哪些符合条件的建筑企业",
+      "tools_used": [
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "query_trends"
+      ],
+      "correct_tool": false,
+      "has_keywords": true,
+      "passed": false,
+      "elapsed": 13.35,
+      "error": ""
+    },
+    {
+      "id": "X03",
+      "question": "某企业在投标时需要关注哪些法律风险？帮我查一下相关法规和该企业的中标历史",
+      "tools_used": [
+        "search_notices"
+      ],
+      "correct_tool": false,
+      "has_keywords": true,
+      "passed": false,
+      "elapsed": 3.04,
+      "error": ""
+    },
+    {
+      "id": "X04",
+      "question": "合肥房地产行业的法律政策环境怎样？这个行业的企业中标情况如何？",
+      "tools_used": [
+        "search_notices",
+        "search_notices",
+        "query_trends",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "query_trends",
+        "query_trends",
+        "search_notices",
+        "search_notices"
+      ],
+      "correct_tool": true,
+      "has_keywords": true,
+      "passed": true,
+      "elapsed": 17.94,
+      "error": ""
+    },
+    {
+      "id": "X05",
+      "question": "帮我查一下信息技术行业的中标趋势，顺便看看这个行业有哪些主要企业",
+      "tools_used": [
+        "query_trends",
+        "query_trends",
+        "query_trends",
+        "query_trends",
+        "search_notices",
+        "search_notices",
+        "search_notices"
+      ],
+      "correct_tool": true,
+      "has_keywords": true,
+      "passed": true,
+      "elapsed": 12.97,
+      "error": ""
+    },
+    {
+      "id": "X06",
+      "question": "政府采购中中小企业有什么优惠政策？最近中小企业中标情况怎样？",
+      "tools_used": [
+        "search_notices",
+        "query_trends",
+        "search_notices",
+        "query_trends",
+        "search_notices",
+        "search_notices",
+        "search_notices"
+      ],
+      "correct_tool": true,
+      "has_keywords": true,
+      "passed": true,
+      "elapsed": 13.79,
+      "error": ""
+    },
+    {
+      "id": "X07",
+      "question": "帮我全面评估某个城市某个行业的招投标环境：包括企业情况、中标趋势和相关法规",
+      "tools_used": [
+        "search_notices",
+        "query_trends",
+        "query_trends"
+      ],
+      "correct_tool": true,
+      "has_keywords": true,
+      "passed": true,
+      "elapsed": 6.05,
+      "error": ""
+    },
+    {
+      "id": "X08",
+      "question": "查询工程投标保证金的最新规定，以及建筑工程行业最近的中标情况",
+      "tools_used": [
+        "search_notices",
+        "query_trends",
+        "search_notices",
+        "query_trends",
+        "search_notices",
+        "query_trends"
+      ],
+      "correct_tool": true,
+      "has_keywords": true,
+      "passed": true,
+      "elapsed": 11.88,
+      "error": ""
+    },
+    {
+      "id": "X09",
+      "question": "钢结构和幕墙工程需要什么资质？有哪些公司符合条件并有中标记录？",
+      "tools_used": [
+        "search_notices",
+        "query_trends",
+        "query_trends",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "get_notice_detail",
+        "get_notice_detail",
+        "get_notice_detail"
+      ],
+      "correct_tool": true,
+      "has_keywords": true,
+      "passed": true,
+      "elapsed": 21.98,
+      "error": ""
+    },
+    {
+      "id": "X10",
+      "question": "公路工程招标的最低资质要求是什么？最近公路项目的中标情况如何？",
+      "tools_used": [
+        "search_notices",
+        "search_notices",
+        "query_trends"
+      ],
+      "correct_tool": true,
+      "has_keywords": true,
+      "passed": true,
+      "elapsed": 5.08,
+      "error": ""
+    },
+    {
+      "id": "X11",
+      "question": "帮我对比分析合肥和南京的建筑业招投标环境",
+      "tools_used": [
+        "search_notices",
+        "search_notices",
+        "query_trends",
+        "query_trends",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "query_trends",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "get_notice_detail",
+        "get_notice_detail"
+      ],
+      "correct_tool": true,
+      "has_keywords": false,
+      "passed": false,
+      "elapsed": 16.47,
+      "error": ""
+    },
+    {
+      "id": "X12",
+      "question": "水利水电工程招标需要什么资质？最近有哪些水利项目中标？",
+      "tools_used": [
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "search_notices",
+        "query_trends"
+      ],
+      "correct_tool": true,
+      "has_keywords": true,
+      "passed": true,
+      "elapsed": 10.12,
+      "error": ""
+    },
+    {
+      "id": "X13",
+      "question": "装饰装修工程的招标法规要求和市场行情分析",
+      "tools_used": [
+        "search_notices",
+        "query_trends",
+        "search_notices",
+        "query_trends",
+        "query_trends",
+        "search_notices",
+        "query_trends"
+      ],
+      "correct_tool": true,
+      "has_keywords": true,
+      "passed": true,
+      "elapsed": 21.13,
+      "error": ""
+    }
+  ]
+}
